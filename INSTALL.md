@@ -15,14 +15,14 @@ Never share this password; the admin can revoke it from your profile at any time
 
 ## 1. Install the skill (Claude Code)
 
-Copy this folder into your personal skills directory:
+Clone this repo straight into your personal skills directory (ask the admin for read access on GitHub):
 
 ```bash
-git clone <REPO-URL> ~/.claude/skills/harvok-campaign-pages
-# no git? unzip the folder you were given to the same path
+git clone git@github.com:Ryanderson-cingram/harvok-website-campaign.git ~/.claude/skills/harvok-campaign-pages
+# no git / no GitHub access? ask the admin for a zip and unzip to the same path
 ```
 
-Updating later: `cd ~/.claude/skills/harvok-campaign-pages && git pull`
+Updating later: `cd ~/.claude/skills/harvok-campaign-pages && git pull` (zip users: re-copy the folder).
 
 ## 2. Connect the MCP server
 
