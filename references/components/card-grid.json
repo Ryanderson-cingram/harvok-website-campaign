@@ -1,1 +1,374 @@
-{"content":[{"id":"nycrvh","name":"section","parent":0,"children":["vkdjjs"],"settings":{"_margin":{"bottom":"20"}}},{"id":"vkdjjs","name":"container","parent":"nycrvh","children":["vqfack"],"settings":{"_width":"1400","_direction":"row","_justifyContent":"space-between","_columnGap":"20","_rowGap":"20"}},{"id":"vqfack","name":"container","parent":"vkdjjs","children":["amhfao","fnegei","glaeng","keipcr"],"settings":{"query":{"objectType":"post","infinite_scroll_margin":"40","post_type":["branch"],"order":["asc"]},"_background":{"color":{"hex":"#ffffff","id":"oexyaf","name":"Color #22"}},"_width":"calc((100% - 40px) / 3)","_boxShadow:hover":{"values":{"offsetX":"2","offsetY":"2","spread":"0","blur":"8"},"color":{"raw":"hsla(0, 0%, 26%, 0.1)"}},"_cssTransition":"0.3s all","_position":"relative","hasLoop":true,"jsfb_is_filterable":true,"jsfb_query_id":"stock_filter","_width:tablet_portrait":"calc((100% - 20px) / 2)","_width:mobile_portrait":"100%"}},{"id":"amhfao","name":"carousel","parent":"vqfack","children":[],"settings":{"infinite":true,"fields":[{"dynamicData":"{post_title:link}","tag":"h3","dynamicMargin":{"top":20,"right":0,"bottom":20,"left":0},"id":"43f50d"},{"dynamicData":"{post_excerpt:20}","id":"bcbee4"}],"arrows":true,"prevArrow":{"library":"themify","icon":"ti-angle-left"},"nextArrow":{"library":"themify","icon":"ti-angle-right"},"_width":"100%","items":{"useDynamicData":"{je_branch_branch_gallery}","size":"large"},"slidesToShow":"1","autoplay":true,"height":"280","arrowBackground":{"hex":"#ffffff","id":"dadthx","name":"Color #22"},"arrowTypography":{"color":{"hex":"#000000","id":"vzthfu","name":"Color #21"},"font-size":"14"},"arrowHeight":"40","arrowWidth":"40","prevArrowLeft":"40px","nextArrowRight":"40px","arrowBorder":{"style":"none"},"height:mobile_portrait":"240","prevArrowBottom":"-20px","prevArrowTop":"auto","nextArrowBottom":"-20px","nextArrowTop":"auto"},"themeStyles":[]},{"id":"fnegei","name":"container","parent":"vqfack","children":["cnyojv","qtgvwe"],"settings":{"_padding":{"top":"20","right":"20","left":"20","bottom":"6"},"_direction":"row","_justifyContent":"space-between","_flexWrap":"wrap","_alignItems":"center","_width":"100%","_rowGap":"6"}},{"id":"cnyojv","name":"heading","parent":"fnegei","children":[],"settings":{"text":"{post_title}","_typography":{"font-size":"28","line-height":"1.1","text-wrap":"balance"},"_width":"calc(100% - 30px)","tag":"h3","link":{"type":"meta","useDynamicData":"{post_url}"},"_typography:mobile_landscape":{"font-size":"28"},"_typography:mobile_portrait":{"font-size":"26"}}},{"id":"qtgvwe","name":"text-basic","parent":"fnegei","children":[],"settings":{"text":"{je_branch_branch_street}, {je_branch_branch_suburb} <font style=\"text-transform: uppercase;\">{je_branch_branch_state}</font> {je_branch_branch_postcode}","_typography":{"color":{"hex":"#9e9e9e","id":"012771","name":"Color #3"},"font-size":"14"},"_typography:mobile_portrait":{"font-size":"14"},"_margin":{"bottom":"auto"}}},{"id":"glaeng","name":"container","parent":"vqfack","children":["ynkufk","srougt"],"settings":{"_direction":"row","_alignItems":"flex-end","_columnGap":"12","_width":"100%","_padding":{"left":"20","right":"20","bottom":"20","top":"20"},"_margin":{"top":"auto"}}},{"id":"ynkufk","name":"heading","parent":"glaeng","children":[],"settings":{"tag":"custom","customTag":"div","_typography":{"font-weight":"700","font-family":"Alumni Sans","font-size":"54","line-height":"0.7"},"text":"{je_branch_review_rate}","_typography:mobile_portrait":{"font-size":"46"}}},{"id":"srougt","name":"rating","parent":"glaeng","children":[],"settings":{"rating":"{je_branch_review_rate}","maxRating":"5","icon":{"library":"ionicons","icon":"ion-ios-star"},"iconColorFull":{"hex":"#e60012","id":"upmriy","name":"Color #19"},"iconColorEmpty":{"hex":"#9e9e9e","id":"012771","name":"Color #3"},"iconSize":"18","schema":true,"schemaName":"Caravan Dealer","schemaType":"Service","reviewAuthor":"Customer","gap":"2"},"themeStyles":[]},{"id":"keipcr","name":"container","parent":"vqfack","children":["chwoio"],"settings":{"_width":"100%","_direction":"row","_columnGap":"10","_padding":{"top":"12","bottom":"12","right":"20","left":"20"},"_border":{"width":{"top":"1"},"color":{"hex":"#f5f5f5","id":"ilgpqi","name":"Color #21"},"style":"solid"},"_justifyContent":"flex-start","_columnGap:mobile_portrait":"6","_flexWrap:mobile_portrait":"nowrap","_justifyContent:mobile_portrait":"flex-start","_columnGap:mobile_landscape":"8","_justifyContent:mobile_landscape":"space-between"}},{"id":"chwoio","name":"text-basic","parent":"keipcr","children":[],"settings":{"_typography":{"font-size":"13","color":{"hex":"#e60012","id":"upmriy","name":"Color #19"},"text-transform":"uppercase"},"_typography:mobile_landscape":{"font-size":"13"},"text":"View On Google","link":{"type":"external","url":"{je_branch_review_link}"}}}],"source":"bricksCopiedElements","sourceUrl":"https://harvok.com.au","version":"2.3.11"}
+{
+ "content": [
+  {
+   "id": "nycrvh",
+   "name": "section",
+   "parent": 0,
+   "children": [
+    "vkdjjs"
+   ],
+   "settings": {
+    "_padding": {
+     "top": "96",
+     "right": "20",
+     "bottom": "96",
+     "left": "20"
+    },
+    "_padding:tablet_portrait": {
+     "top": "64",
+     "bottom": "64"
+    },
+    "_padding:mobile_portrait": {
+     "top": "48",
+     "right": "0",
+     "bottom": "48",
+     "left": "0"
+    }
+   }
+  },
+  {
+   "id": "vkdjjs",
+   "name": "container",
+   "parent": "nycrvh",
+   "children": [
+    "vqfack"
+   ],
+   "settings": {
+    "_width": "1400",
+    "_direction": "row",
+    "_justifyContent": "space-between",
+    "_columnGap": "20",
+    "_rowGap": "20"
+   }
+  },
+  {
+   "id": "vqfack",
+   "name": "container",
+   "parent": "vkdjjs",
+   "children": [
+    "amhfao",
+    "fnegei",
+    "glaeng",
+    "keipcr"
+   ],
+   "settings": {
+    "query": {
+     "objectType": "post",
+     "infinite_scroll_margin": "40",
+     "post_type": [
+      "branch"
+     ],
+     "order": [
+      "asc"
+     ]
+    },
+    "_background": {
+     "color": {
+      "hex": "#ffffff",
+      "id": "oexyaf",
+      "name": "Color #22"
+     }
+    },
+    "_width": "calc((100% - 40px) / 3)",
+    "_boxShadow:hover": {
+     "values": {
+      "offsetX": "2",
+      "offsetY": "2",
+      "spread": "0",
+      "blur": "8"
+     },
+     "color": {
+      "raw": "hsla(0, 0%, 26%, 0.1)"
+     }
+    },
+    "_cssTransition": "0.3s all",
+    "_position": "relative",
+    "hasLoop": true,
+    "jsfb_is_filterable": true,
+    "jsfb_query_id": "stock_filter",
+    "_width:tablet_portrait": "calc((100% - 20px) / 2)",
+    "_width:mobile_portrait": "100%"
+   }
+  },
+  {
+   "id": "amhfao",
+   "name": "carousel",
+   "parent": "vqfack",
+   "children": [],
+   "settings": {
+    "infinite": true,
+    "fields": [
+     {
+      "dynamicData": "{post_title:link}",
+      "tag": "h3",
+      "dynamicMargin": {
+       "top": 20,
+       "right": 0,
+       "bottom": 20,
+       "left": 0
+      },
+      "id": "43f50d"
+     },
+     {
+      "dynamicData": "{post_excerpt:20}",
+      "id": "bcbee4"
+     }
+    ],
+    "arrows": true,
+    "prevArrow": {
+     "library": "themify",
+     "icon": "ti-angle-left"
+    },
+    "nextArrow": {
+     "library": "themify",
+     "icon": "ti-angle-right"
+    },
+    "_width": "100%",
+    "items": {
+     "useDynamicData": "{je_branch_branch_gallery}",
+     "size": "large"
+    },
+    "slidesToShow": "1",
+    "autoplay": true,
+    "height": "280",
+    "arrowBackground": {
+     "hex": "#ffffff",
+     "id": "dadthx",
+     "name": "Color #22"
+    },
+    "arrowTypography": {
+     "color": {
+      "hex": "#000000",
+      "id": "vzthfu",
+      "name": "Color #21"
+     },
+     "font-size": "14"
+    },
+    "arrowHeight": "40",
+    "arrowWidth": "40",
+    "prevArrowLeft": "40px",
+    "nextArrowRight": "40px",
+    "arrowBorder": {
+     "style": "none"
+    },
+    "height:mobile_portrait": "240",
+    "prevArrowBottom": "-20px",
+    "prevArrowTop": "auto",
+    "nextArrowBottom": "-20px",
+    "nextArrowTop": "auto"
+   },
+   "themeStyles": []
+  },
+  {
+   "id": "fnegei",
+   "name": "container",
+   "parent": "vqfack",
+   "children": [
+    "cnyojv",
+    "qtgvwe"
+   ],
+   "settings": {
+    "_padding": {
+     "top": "20",
+     "right": "20",
+     "left": "20",
+     "bottom": "6"
+    },
+    "_direction": "row",
+    "_justifyContent": "space-between",
+    "_flexWrap": "wrap",
+    "_alignItems": "center",
+    "_width": "100%",
+    "_rowGap": "6"
+   }
+  },
+  {
+   "id": "cnyojv",
+   "name": "heading",
+   "parent": "fnegei",
+   "children": [],
+   "settings": {
+    "text": "{post_title}",
+    "_typography": {
+     "font-size": "28",
+     "line-height": "1.1",
+     "text-wrap": "balance"
+    },
+    "_width": "calc(100% - 30px)",
+    "tag": "h3",
+    "link": {
+     "type": "meta",
+     "useDynamicData": "{post_url}"
+    },
+    "_typography:mobile_landscape": {
+     "font-size": "28"
+    },
+    "_typography:mobile_portrait": {
+     "font-size": "26"
+    }
+   }
+  },
+  {
+   "id": "qtgvwe",
+   "name": "text-basic",
+   "parent": "fnegei",
+   "children": [],
+   "settings": {
+    "text": "{je_branch_branch_street}, {je_branch_branch_suburb} <font style=\"text-transform: uppercase;\">{je_branch_branch_state}</font> {je_branch_branch_postcode}",
+    "_typography": {
+     "color": {
+      "hex": "#616161",
+      "id": "44221f",
+      "name": "Color #4"
+     },
+     "font-size": "14"
+    },
+    "_typography:mobile_portrait": {
+     "font-size": "14"
+    },
+    "_margin": {
+     "bottom": "auto"
+    }
+   }
+  },
+  {
+   "id": "glaeng",
+   "name": "container",
+   "parent": "vqfack",
+   "children": [
+    "ynkufk",
+    "srougt"
+   ],
+   "settings": {
+    "_direction": "row",
+    "_alignItems": "flex-end",
+    "_columnGap": "12",
+    "_width": "100%",
+    "_padding": {
+     "left": "20",
+     "right": "20",
+     "bottom": "20",
+     "top": "20"
+    },
+    "_margin": {
+     "top": "auto"
+    }
+   }
+  },
+  {
+   "id": "ynkufk",
+   "name": "heading",
+   "parent": "glaeng",
+   "children": [],
+   "settings": {
+    "tag": "custom",
+    "customTag": "div",
+    "_typography": {
+     "font-weight": "700",
+     "font-family": "Alumni Sans",
+     "font-size": "54",
+     "line-height": "0.7"
+    },
+    "text": "{je_branch_review_rate}",
+    "_typography:mobile_portrait": {
+     "font-size": "46"
+    }
+   }
+  },
+  {
+   "id": "srougt",
+   "name": "rating",
+   "parent": "glaeng",
+   "children": [],
+   "settings": {
+    "rating": "{je_branch_review_rate}",
+    "maxRating": "5",
+    "icon": {
+     "library": "ionicons",
+     "icon": "ion-ios-star"
+    },
+    "iconColorFull": {
+     "hex": "#e60012",
+     "id": "upmriy",
+     "name": "Color #19"
+    },
+    "iconColorEmpty": {
+     "hex": "#9e9e9e",
+     "id": "012771",
+     "name": "Color #3"
+    },
+    "iconSize": "18",
+    "schema": true,
+    "schemaName": "Caravan Dealer",
+    "schemaType": "Service",
+    "reviewAuthor": "Customer",
+    "gap": "2"
+   },
+   "themeStyles": []
+  },
+  {
+   "id": "keipcr",
+   "name": "container",
+   "parent": "vqfack",
+   "children": [
+    "chwoio"
+   ],
+   "settings": {
+    "_width": "100%",
+    "_direction": "row",
+    "_columnGap": "10",
+    "_padding": {
+     "top": "12",
+     "bottom": "12",
+     "right": "20",
+     "left": "20"
+    },
+    "_border": {
+     "width": {
+      "top": "1"
+     },
+     "color": {
+      "hex": "#f5f5f5",
+      "id": "ilgpqi",
+      "name": "Color #21"
+     },
+     "style": "solid"
+    },
+    "_justifyContent": "flex-start",
+    "_columnGap:mobile_portrait": "6",
+    "_flexWrap:mobile_portrait": "nowrap",
+    "_justifyContent:mobile_portrait": "flex-start",
+    "_columnGap:mobile_landscape": "8",
+    "_justifyContent:mobile_landscape": "space-between"
+   }
+  },
+  {
+   "id": "chwoio",
+   "name": "text-basic",
+   "parent": "keipcr",
+   "children": [],
+   "settings": {
+    "_typography": {
+     "font-size": "13",
+     "color": {
+      "hex": "#e60012",
+      "id": "upmriy",
+      "name": "Color #19"
+     },
+     "text-transform": "uppercase"
+    },
+    "_typography:mobile_landscape": {
+     "font-size": "13"
+    },
+    "text": "View On Google",
+    "link": {
+     "type": "external",
+     "url": "{je_branch_review_link}"
+    }
+   }
+  }
+ ],
+ "source": "bricksCopiedElements",
+ "sourceUrl": "https://harvok.com.au",
+ "version": "2.3.11"
+}
