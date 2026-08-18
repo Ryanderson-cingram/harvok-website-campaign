@@ -1,1 +1,67 @@
-{"content":[{"id":"pzsaja","name":"section","parent":0,"children":["iwcvyw"],"settings":{"_direction":"row","_alignItems":"center","_margin":{"top":"60"},"_cssId":"layouts","_padding":{"left":"20","right":"20"}},"label":"Footnotes"},{"id":"iwcvyw","name":"container","parent":"pzsaja","children":["peqkqy"],"settings":{"_width":"1400","_direction":"column","_alignItems":"center","_rowGap":"20"}},{"id":"peqkqy","name":"text-basic","parent":"iwcvyw","children":[],"settings":{"_typography":{"color":{"hex":"#9e9e9e","id":"012771","name":"Color #3"},"font-size":"14","line-height":"1.8"},"text":"* Achieved through optimized aerodynamic curves.","_width":"100%","_cssId":"footnote"}}],"source":"bricksCopiedElements","sourceUrl":"https://harvok.com.au","version":"2.3.11"}
+{
+ "content": [
+  {
+   "id": "pzsaja",
+   "name": "section",
+   "parent": 0,
+   "children": [
+    "iwcvyw"
+   ],
+   "settings": {
+    "_direction": "row",
+    "_alignItems": "center",
+    "_cssId": "layouts",
+    "_padding": {
+     "top": "28",
+     "right": "20",
+     "bottom": "28",
+     "left": "20"
+    },
+    "_padding:mobile_portrait": {
+     "top": "24",
+     "right": "0",
+     "bottom": "24",
+     "left": "0"
+    }
+   },
+   "label": "Footnotes"
+  },
+  {
+   "id": "iwcvyw",
+   "name": "container",
+   "parent": "pzsaja",
+   "children": [
+    "peqkqy"
+   ],
+   "settings": {
+    "_width": "1400",
+    "_direction": "column",
+    "_alignItems": "center",
+    "_rowGap": "20"
+   }
+  },
+  {
+   "id": "peqkqy",
+   "name": "text-basic",
+   "parent": "iwcvyw",
+   "children": [],
+   "settings": {
+    "_typography": {
+     "color": {
+      "hex": "#9e9e9e",
+      "id": "012771",
+      "name": "Color #3"
+     },
+     "font-size": "14",
+     "line-height": "1.8"
+    },
+    "text": "* Achieved through optimized aerodynamic curves.",
+    "_width": "100%",
+    "_cssId": "footnote"
+   }
+  }
+ ],
+ "source": "bricksCopiedElements",
+ "sourceUrl": "https://harvok.com.au",
+ "version": "2.3.11"
+}

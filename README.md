@@ -4,7 +4,10 @@ Two things get set up once per person: the **skill** (this folder) and the **MCP
 
 ## 0. What you need from the admin
 
-Ask the site admin for a WordPress account on harvok.com.au with the **Harvok Marketing** role. (Admin instructions live in the `harvok-campaign` plugin's README.md.)
+Ask the site admin for **two** things (instructions for them live in the `harvok-campaign` plugin's README.md):
+
+1. A WordPress account on harvok.com.au with the **Harvok Marketing** role
+2. **Builder access for that role in Bricks → Settings.** Without it Bricks throws away every layout you write and reports success anyway — you end up with a page that has a title and no content, and no error to tell you why. Confirm this is done before your first real campaign.
 
 Then create your own API key:
 1. Log in to https://harvok.com.au/wp-admin/
@@ -44,16 +47,29 @@ Start Claude Code anywhere and ask:
 
 You should get back the campaign list from harvok.com.au. If you get an auth error, re-check username and password; if the tools are missing, run `claude mcp list` to confirm the server was added.
 
+If a page you build previews as blank or keeps its old content, that is the Bricks builder access from step 0 — not something you did wrong. Ask the admin to grant it.
+
 ## 4. Use it
 
-Describe your campaign to Claude (or invoke `/harvok-campaign-pages`):
+**Write your copy first.** Claude designs and builds the page; it does not write the words. Bring a section list with the actual copy for each section — headline, body, button labels, footnotes. Claude will ask for anything missing before it starts.
 
-> I need a landing page for the spring stock clearance — audience is …, the offer is …, CTA is a HubSpot form
+Then describe your campaign (or invoke `/harvok-campaign-pages`):
 
-Claude walks the workflow: brief → copy (you approve it in markdown) → imagery from the site media library → draft page + thanks page → review link to the admin. **Everything you create is a draft — only the admin can publish, in wp-admin.**
+> Landing page for the spring stock clearance. Audience is …, the offer is …, CTA is a HubSpot form. Sections and copy: …
+
+Claude then works in four stages:
+
+1. **Intake** — checks your copy is complete, asks for whatever is missing
+2. **Design** — builds an HTML design of the page and hands you a file to open. Review it, ask for changes, repeat until you're happy
+3. **Build** — turns the approved design into the real Bricks page, plus a thanks page if there's a form
+4. **Hand-off** — a preview link for the admin
+
+**Everything Claude creates is a draft — only the admin can publish, in wp-admin.**
 
 ## Notes & limits
 
+- Design changes belong in stage 2. Once the page is built, changing the layout means going back to the HTML — so take your time with the design review
 - Draft preview links require a logged-in wp-admin session — reviewers must be logged in
 - HubSpot forms: create the form in HubSpot first and give Claude the form-id; the admin re-signs the code block during review
+- Thanks pages are set to noindex automatically
 - claude.ai / Desktop app usage (no terminal) is packaged separately — ask the maintainer
